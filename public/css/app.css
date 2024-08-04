@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #a2b9bc;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --text-color: #ffffff;
+    --background-color: #ffffff;
+}
+
+body{
+    /* background-color: black; */
+    font-family: sans-serif;
+    border:0;
+    margin:0
+}
+.container-lg{
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+.container-md{
+    width:900px;
+    margin: auto;
+    padding: 20px 0;
+}
+.basket-card{
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+}
+.cart-page-container{
+    display: flex;
+    gap: 20px;
+}
+.cart-page-container > .side-1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+nav{
+    display:flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+.carousel{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.2)),url('/images/home-store.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.carousel-text{
+    color: var(--text-color);
+    width: 50%;
+}
+.carousel-text > h1{
+    margin:0;
+}
+.nav-items{
+    display:flex;
+    gap:6px
+}
+.nav-items > li{
+   list-style: none;
+}
+.nav-items > li > a{
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .card button:hover {
+    opacity: 0.7;
+  }
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.home-container{
+    /* border:1px solid blue; */
+    width: 1200px;
+    margin: auto;
+}
