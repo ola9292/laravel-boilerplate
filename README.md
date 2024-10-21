@@ -6,3 +6,4 @@ clone the repo into your local machine,
 run composer install 
 create your own .env file
 generate a key with artisan key:generate.
+# event-listing-app
